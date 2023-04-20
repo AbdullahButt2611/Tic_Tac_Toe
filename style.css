@@ -2,8 +2,8 @@ html {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  background-color: #eee;
-  color: #1a1a1a;
+  background-color: #F9FBFC;
+  color:  #FF6652;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -32,7 +32,7 @@ body {
 .square {
   width: 100px;
   height: 100px;
-  border: 2px solid #1a1a1a;
+  border: 2px solid  #FF6652;
   transition: 0.2s ease-out;
   cursor: pointer;
   position: relative;
@@ -40,7 +40,7 @@ body {
 
 /* change color of square when hovering */
 .square:hover {
-  background-color: #ddd;
+  background-color:  #C7E3EE;
 }
 
 /* to disable the hover effect when a square is already selected
@@ -76,7 +76,7 @@ body {
 
 .square.X .outline:before {
   content: "";
-  background: #1a1a1a;
+  background:  #FC1D00;
   width: 14px;
   height: 58px;
   position: absolute;
@@ -86,7 +86,7 @@ body {
 
 .square.X .outline:after {
   content: "";
-  background: #1a1a1a;
+  background:  #FC1D00;
   width: 14px;
   height: 58px;
   position: absolute;
@@ -96,7 +96,7 @@ body {
 
 .square.X .foreground:before {
   content: "";
-  background: #f03a17;
+  background:  #FF6652;
   width: 8px;
   height: 52px;
   position: absolute;
@@ -106,7 +106,7 @@ body {
 
 .square.X .foreground:after {
   content: "";
-  background: #f03a17;
+  background:  #FF6652;
   width: 8px;
   height: 52px;
   position: absolute;
@@ -123,7 +123,7 @@ body {
   height: 58px;
   position: absolute;
   border-radius: 50%;
-  border: 14px solid #1a1a1a;
+  border: 14px solid #C54D3D;
   z-index: 2;
 }
 
@@ -134,7 +134,7 @@ body {
   height: 52px;
   position: absolute;
   border-radius: 50%;
-  border: 8px solid #0082a5;
+  border: 8px solid #F0D1CD;
   z-index: 3;
 }
 
@@ -167,12 +167,12 @@ body {
 /* new game button */
 
 button {
-  background-color: #008888;
+  background-color:  #0B033C;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   color: white;
   border: none;
-  padding: 12px 16px;
+  padding: 15px 30px;
   border-radius: 4px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.16), 0 2px 5px rgba(0, 0, 0, 0.26);
   transition: 0.2s ease-out;
@@ -181,6 +181,6 @@ button {
 
 /* change color and shadow of button when hovering */
 button:hover {
-  background-color: #009999;
+  background-color: #05011C;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16), 0 5px 6px rgba(0, 0, 0, 0.26);
 }
