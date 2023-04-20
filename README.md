@@ -74,8 +74,8 @@ You can exclusively watch the video on this project from the making to deploying
 
 
 
-### GUI
-![GUI for this Project](path)
+### Gaming Interface<br><br>
+![GUI for this Project](demo.png)
 
 
 <br><br>
